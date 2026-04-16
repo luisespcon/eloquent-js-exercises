@@ -1,5 +1,7 @@
-for(let hash = ""; hash.length < 8 ; hash = hash + "#"){
-    console.log(hash)    
+let hash = ""; 
+for (let count = 1; count <= 7; count ++){
+  hash = hash + "#"
+  console.log(hash);
 }
 
 /*
