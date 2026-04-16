@@ -14,8 +14,9 @@ const isEven = N => {
     } else if (N === 0){
         return true
     } else {
-        
+        N = N - 2
     }
+    return isEven(N)
 }
 
 console.log(isEven(50));
