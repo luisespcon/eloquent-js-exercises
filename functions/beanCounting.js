@@ -33,10 +33,10 @@ Iterar sobre el la cadena
 retornar contador
 */
 
-let countChar = (String, Char) => {
+let countChar = (Str, Char) => {
     let counter = 0;
-    for(let position = 0; position < String.length; position ++){
-        if(String[position] === Char){
+    for(let position = 0; position < Str.length; position ++){
+        if(Str[position] === Char){
             counter = counter + 1;
         }
     }
